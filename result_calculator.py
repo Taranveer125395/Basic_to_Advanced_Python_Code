@@ -5,7 +5,7 @@ d = int(input('Enter Your Physics Marks: '))
 e = int(input('Enter Your Chemistry Marks: '))
 
 f = a + b + c + d + e
-g = (f/500)*100
+g = (f / 500) * 100
 
 print('---------------Result Details----------------')
 print(f'Punjabi: {a}')
