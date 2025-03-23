@@ -107,4 +107,28 @@ else:
     print(f'Total: {f}')
     print(f'Percentage: {g}')
     print('Result: PASS')
+
+if g >= 90:
+    print('Grade: A+')
+    
+elif g < 90 and g >= 80:
+    print('Grade: A')
+    
+elif g < 80 and g >= 70:
+    print('Grade: B+')
+    
+elif g < 70 and g >= 60:
+    print('Grade: B')
+    
+elif g < 60 and g >= 50:
+    print('Grade: C+')
+    
+elif g < 50 and g >= 40:
+    print('Grade: C')
+    
+elif g < 40 and g >= 33:
+    print('Grade: D')
+    
+else:
+    print('Grade: F')
     
